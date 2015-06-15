@@ -1,5 +1,9 @@
-# Xcode
+# OSX
+#
 .DS_Store
+
+# Xcode
+#
 build/
 *.pbxuser
 !default.pbxuser
@@ -9,20 +13,16 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-*.xcworkspace
-!default.xcworkspace
 xcuserdata
-profile
+*.xccheckout
 *.moved-aside
 DerivedData
-.idea/
-out/
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
 
-scripts/out/
-
-docset-installed.txt
-
-# Podfile.lock
-Pods/*
-
-node_module
+# node.js
+#
+node_modules/
+npm-debug.log
